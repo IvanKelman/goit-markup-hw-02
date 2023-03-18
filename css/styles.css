@@ -17,11 +17,8 @@ font-family: Roboto, Raleway;
 
 }
 .logo{ 
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1,166;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -38,21 +35,18 @@ font-family: Roboto, Raleway;
 
 
 .header-studio, .header-contacts, .header-portfolio{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 
-.header-address{font-family: 'Roboto';
-    font-style: normal;
+.header-address{
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,5;
     letter-spacing: 0.02em;
     color: #434455;
 
@@ -68,11 +62,10 @@ font-family: Roboto, Raleway;
 
 }
 .hero-text{
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1,071;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -80,19 +73,15 @@ font-family: Roboto, Raleway;
 
 
 .hero-btn{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,54px;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
+    background: #4D5AE5;}
+
 
 
 /* ---------------------------------section1------------------------ */
@@ -100,22 +89,16 @@ font-family: Roboto, Raleway;
 
 }
 .products-procesing-title{ 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1,2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 
 .products-procesing-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,5;
     /* or 150% */
     letter-spacing: 0.02em;
     color: #434455;
@@ -127,11 +110,9 @@ font-family: Roboto, Raleway;
 
 }
 .projekt-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1,111111;
     letter-spacing: 0.02em;
     text-transform: capitalize
 
@@ -144,11 +125,9 @@ font-family: Roboto, Raleway;
 }
 /* -----------section4----------- */
 .team{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1,1111111;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -160,46 +139,28 @@ font-family: Roboto, Raleway;
 
 }
 .team-name{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1,2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .team-position{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 .team-foto{
-
-
-    /* WHITE
-
-Header background, team card background
-*/
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
 
 }
 /* -----------footer----------- */
 .footer-text{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
+    line-height: 1,5;
     letter-spacing: 0.02em;
 }
 /* ------------------ sektione1(portfolio) ------------- */
@@ -210,48 +171,14 @@ Header background, team card background
 
 }
 .filters-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px 24px;
-
-    width: 69px;
-    height: 48px;
-
-    /* OCEAN */
-
-    background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-    
-        /* WHITE */
-    
-        color: #FFFFFF;
-    
-    
-        /* Inside auto layout */
-    
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        cursor: pointer
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
 /* ------------------ sektione2 (portfolio) ------------- */
@@ -262,35 +189,19 @@ Header background, team card background
 
 }
 .img-btn{
-cursor: pointer
+    cursor: pointer
 }
 .sektion-btn-name-app{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
+    line-height: 1,2;
     letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
     color: #2E2F42;
-cursor: pointer
 }
 .sektion-btn-text{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
+    line-height: 1,5;
     letter-spacing: 0.02em;
-
-    /* SLATE */
-
     color: #434455;
-cursor: pointer
 }
