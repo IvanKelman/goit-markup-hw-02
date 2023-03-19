@@ -1,5 +1,9 @@
 body{
-font-family: Roboto, Raleway;
+font-family: "Roboto",
+    sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+
 }
 .list{ list-style: none;
 
@@ -17,15 +21,19 @@ font-family: Roboto, Raleway;
 
 }
 .logo{ 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1,166;
+    line-height: 1,17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-
-
+    color:#4d5ae5
+}
+.logo-color{
+color:#2e2f42
 }
 
 
@@ -34,7 +42,7 @@ font-family: Roboto, Raleway;
 }
 
 
-.header-studio, .header-contacts, .header-portfolio{
+.header-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
@@ -42,8 +50,10 @@ font-family: Roboto, Raleway;
     color: #2E2F42;
 }
 
+.header-link:is(:hover, :focus){ color:#404BBF}
 
 .header-address{
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1,5;
@@ -51,21 +61,42 @@ font-family: Roboto, Raleway;
     color: #434455;
 
 }
+
 .mail-list{
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;;
+    color: #434455;
 }
-.phon-list{
 
+.mail-list:is(:hover, :focus) {
+    color: #404BBF
 }
+
+.phon-list{font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    ;
+    color: #434455;
+}
+
+
+.phon-list:is(:hover, :focus) {
+    color: #404BBF
+}
+
 /* -----------section1----------- */
 .hero{background: #2E2F42;
 
 }
+
 .hero-text{
 
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,071;
+    line-height: 1,07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -73,22 +104,31 @@ font-family: Roboto, Raleway;
 
 
 .hero-btn{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,54px;
+    line-height: 1,5px;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #4D5AE5;}
 
+    .hero-btn:is(:hover, :focus) {
+    background-color: #404BBF}
+
 
 
 /* ---------------------------------section1------------------------ */
+.hidden-sektion{
+    
+}
+
 .products-procesing{
 
 }
-.products-procesing-title{ 
+.products-procesing-title{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1,2;
     letter-spacing: 0.02em;
@@ -99,7 +139,6 @@ font-family: Roboto, Raleway;
 .products-procesing-text{
     font-size: 16px;
     line-height: 1,5;
-    /* or 150% */
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -157,11 +196,17 @@ font-family: Roboto, Raleway;
 
 }
 /* -----------footer----------- */
+.dottom-sektion{
+    background-color: #2e2f42;
+}
+
+
 .footer-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.02em;
+
 }
 /* ------------------ sektione1(portfolio) ------------- */
 .filters{
@@ -171,6 +216,7 @@ font-family: Roboto, Raleway;
 
 }
 .filters-btn{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
@@ -178,7 +224,14 @@ font-family: Roboto, Raleway;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color:#F4F4FD
+}
+
+    .filters-btn:is(:hover, :focus) {
     color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer
 }
 
 /* ------------------ sektione2 (portfolio) ------------- */
