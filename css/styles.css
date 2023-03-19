@@ -11,7 +11,8 @@ background-color: #FFFFFF;
 .link{ text-decoration: none;
 
 }
-
+:root {
+    --brand-color: #3f51b5;}
 
 /* -----------heder----------- */
 .top-header{
@@ -74,19 +75,6 @@ color:#2e2f42
     color: #404BBF
 }
 
-.phon-list{font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    ;
-    color: #434455;
-}
-
-
-.phon-list:is(:hover, :focus) {
-    color: #404BBF
-}
-
 /* -----------section1----------- */
 .hero{background: #2E2F42;
 
@@ -107,7 +95,7 @@ color:#2e2f42
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -213,13 +201,19 @@ background-color: #FFFFFF;
 .dottom-sektion{
     background-color: #2e2f42;
 }
+.logo-color-footer{
+    color: #f4f4fd;
+}
+.logo-footer{
 
+}
 
 .footer-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd
 
 }
 /* ------------------ sektione1(portfolio) ------------- */
